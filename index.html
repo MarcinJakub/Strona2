@@ -10,10 +10,10 @@
 			#container
 			{
 				width: 850px;
-				border: 2px solid black;
 				height: 456px;
 				margin-left: auto;
 				margin-right: auto;
+				outline: 2px solid black;
 			}
 			
 			#baner
@@ -23,22 +23,26 @@
 			}
 			
 			
-			#lewo, prawo
+			#lewo
 			{
 				float: left;
 				min-height: 300px;
-				
-			}
-			
-			#lewo
-			{
 				width: 40%;
-				border-right: 2px solid black;
+				outline: 2px solid black;
+				
 			}
 			
 			#prawo
 			{
+				min-height: 300px;
 				width: 60%;
+				float: left;
+				outline: 2px solid black;
+			}	
+			
+			.audio
+			{
+			
 			}
 			
 		</style>
@@ -64,13 +68,13 @@
 			<main id="prawo">
 				<button>Numer PESEL</button>
 			</main>
+		
 			<audio controls>
 				<source src="audio/" type="">
 			</audio>
 		
 		</div>
-		
-		
+
 	</body>
 
 </html>
